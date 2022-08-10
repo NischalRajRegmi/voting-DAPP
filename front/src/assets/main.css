@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  /* border: none; */
+  outline: none;
+}
+
+table, th, td {
+  border: 2px solid rgb(1, 148, 1);
+}
+th,td {
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  width: min(100%, 1200px);
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.body-container {
+  min-height: calc(100vh - 160px);
+  /* min-height: 100vh; */
+} 
+
+/* .notification_class {
+  background-color: green;
+  color: white;
+} */
